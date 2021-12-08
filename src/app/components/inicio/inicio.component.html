@@ -1,0 +1,129 @@
+
+<header>
+    <div class="contenedor">
+        <div class="menu">
+            <a [routerLink]="['/inicio']">
+                <p class="nombre-titulo">TINDERLINGO</p>
+            </a>
+            
+            <nav>
+                <ul class="lista">
+                    <a href="#sobre-nosotros">
+                        <li>Sobre Nosotros</li>
+                    </a>
+                    <a href="#id-servicios">
+                        <li>Contacto</li>
+                    </a>
+                    <a [routerLink]="['/registro']">
+                        <li>Registrarse</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="titular">
+        <h1>TINDERLINGO</h1>
+        <h2>APRENDE EL IDIOMA QUE QUIERAS CUANDO QUIERAS Y CON QUIEN QUIERAS</h2>
+        <div class= "botones">
+        <a [routerLink]="['/registro']"> 
+         <p class="boton"  target="_blank">COMENZAR</p>   
+        </a>
+        <a [routerLink]="['/login']">
+            <p class="boton"  target="_blank">YA TENGO CUENTA</p>     
+        </a>
+        </div>
+    </div>
+</header>
+<section id="sobre-nosotros" class="seccion-sobrenosotros">
+    <h3>Sobre Nosotros</h3>
+    <div class="sobrenosotros">
+        <img src="assets/img/icono-amistad.png" alt="Conoce personas alrededor del mundo">
+        <div class="parrafo">
+            <p>TINDERLINGO  es una plataforma diseñada para el aprendizaje de idiomas. Con la particularidad
+                de que además de elegir el idioma que quieres practicar, también tendrás la oportunidad de elegir, entre
+                miles de personas, el usuario que desees para empezar a practicar ese idioma que tanto deseas. </p>
+            <p><a [routerLink]="['/registro']"> <p class="boton">REGISTRARSE</p> </a></p>
+        </div>
+    </div>
+</section>
+<section id="id-servicios" class="seccion-servicios">
+    <div class="sobrenosotros">
+        <div class="parrafo">
+            <h4>¿Por que elegir a TinderLingo?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere voluptatibus alias accusamus consequatur
+                velit, dolorum tempore minus at, aspernatur labore harum dicta molestias vero exercitationem quas atque
+                culpa corrupti est.</p>
+        </div>
+    </div>
+    <div class="cont-servicio">
+        <div class="servicio color1">
+            <h4>
+                Aprendizaje interactivo
+                <i class="fas fa-gem"></i>
+            </h4>
+            <p>Con Tinderlingo tiene la oportunidad de un aprendizaje alternativo al tradicional, en el que se gasta mucho tiempo
+               en un solo tema y aun asi no termina de quedarle claro a los estudiantes. La posibilidad de poder hablar con nativos del
+               idioma es una gran ventaja que no puedes desaprovechar.
+            </p>
+        </div>
+        <div class="servicio color2">
+            <h4>
+                Comodidad
+                <i class="fas fa-grin-wink"></i>
+            </h4>
+            <p>En muchas ocasiona aprender y practicar ingles resulta algo costoso, tanto en tiempo como en dinero. Tinderlingo es una plataforma gratuita que no
+               exige un horario fijo, usted puede escoger el momento que desee para practicar el idioma que desee. Además, usted mismo
+               escoge las personas con las que quiera practicar el idioma  sin ningun compromiso a futuro, es decir, que en cualquier momento puede 
+               dejar el contacto con algun match que tenga. Practico, cómodo y facil, esto es Tinderlingo.
+            </p>
+        </div>
+        <div class="servicio color1">
+            <h4>
+                Conecta con personas en todo el mundo
+                <i class="fas fa-globe-americas"></i>
+            </h4>
+            <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia
+                del diseño es
+                fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio
+                web, deben ser
+                rápidos para que el visitante tenga la mejor experiencia</p>
+        </div>
+        <div class="servicio color2">
+            <h4>
+                Experiencia Unica
+                <i class="fas fa-check-double"></i>
+            </h4>
+            <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia
+                del diseño es
+                fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio
+                web, deben ser
+                rápidos para que el visitante tenga la mejor experiencia</p>
+        </div>
+        <div class="servicio color1">
+            <h4>
+                Idiomas disponibles
+                <i class="fas fa-flag"></i>
+            </h4>
+            <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia
+                del diseño es
+                fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio
+                web, deben ser
+                rápidos para que el visitante tenga la mejor experiencia</p>
+        </div>
+        <div class="servicio color2">
+            <div class="titulo">
+                <h4>Premium <i class="fas fa-crown"></i></h4>
+            </div>
+            <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia
+                del diseño es
+                fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio
+                web, deben ser
+                rápidos para que el visitante tenga la mejor experiencia</p>
+        </div>
+    </div>
+    <a [routerLink]="['/registro']">
+        <p class="bb boton" target="_blank">EMPEZAR YA!</p>
+    </a>
+</section>
+
+<app-footer></app-footer>

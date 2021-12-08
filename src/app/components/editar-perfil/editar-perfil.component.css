@@ -1,0 +1,338 @@
+body{
+    background: rgb(20,113,231);
+    background: radial-gradient(circle, rgba(20,113,231,0.9724264705882353) 13%, rgba(31,210,64,0.9023984593837535) 100%);
+    background-size:auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: 'Glory', sans-serif;
+    }
+    
+    .container{
+    height: 100%;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    text-align: justify;
+    }
+    .d-flex{
+        flex-wrap: nowrap;
+    }
+    
+    .titulo{
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 55px;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        color : #4DFE3E;
+        justify-content: center;
+        margin-bottom: -0px;
+    }
+    
+    .card{
+    height: 650px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 550px;
+    border-radius: 7px;
+    background: rgb(20,145,231);
+    background: linear-gradient(137deg, rgba(20,145,231,0.958420868347339) 13%, rgba(10,17,18,0.7539390756302521) 100%);
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #36d436;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #36d436;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #36d436;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    
+    .mt-2{
+        margin-bottom: 0px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+    footer{
+        background: #0036FF;
+        padding: 47px;
+        color: white;
+    }
+    
+    .cont-footer{
+        margin-top: -20px;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cont-footer-icono{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cont-footer ul{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-size: 25px;
+    }
+    
+    .fab{
+        font-size: 20px;
+    }
+    
+    .fab:hover{
+        color: black;
+        -webkit-transform: scale(1.28);
+        transform: scale(1.58);
+    }
+    
+    .menu-footer-elemento{
+        font-size: 15px;
+    }
+    .menu-footer-elemento span{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .menu-footer-elemento li{
+        font-size: 15px;
+        margin: 10px -30px;
+    }
+    
+    .menu-footer-elemento li:hover{
+        -webkit-transform: scale(1.23);
+        transform: scale(1.23);
+        color: black;
+    }
+    
+    .menu-footer-elemento ul{
+        display: block;
+    }
+
+    .error-login{
+        margin-top: 20px;
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+
+    /* HEADER*/
+.nombre-titulo {
+    background-color: #4DFE3E;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    padding: 15px 25px 15px 25px;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+}
+
+.lista{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+    position: relative;
+}
+
+a:hover{
+    color: black;
+    -webkit-transform: scale(1.23);
+    transform: scale(1.23);
+}
+
+.boton{
+    text-decoration: none;
+    font-size: 18px;
+    background: #131c91;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    border-radius: 8px;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.1);
+}
+
+h1{
+    font-size: 70px;
+    margin: 0;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    text-align: center;
+}
+header{
+    background: rgb(84,246,135);
+    background: radial-gradient(circle, rgba(84,246,135,0.958420868347339) 0%, rgba(0,56,255,1) 100%);
+    background-size: cover;
+    margin: 0;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.btn-primary{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-error{
+    color: #fff;
+    background-color: #a8240d;
+    border-color: #a8240d;
+}
+
+.btn-error:hover{
+    background-color: #8f1904;
+    border-color: #8f1904;
+}
+
+.btn:not(:disabled):not(.disabled){
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #0069d9;
+    border-color: #0069d9;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-guardar{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    
